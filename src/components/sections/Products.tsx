@@ -148,9 +148,14 @@ const ProductCard = ({ product, index }: { product: Product; index: number }) =>
               {product.price}
             </span>
             {product.available && (
-              <button className="text-sm font-body font-medium text-charcoal hover:text-gold transition-colors uppercase tracking-wider">
+              <a
+                href={`https://wa.me/5492645666318?text=${encodeURIComponent(`Hola! Me interesa comprar: ${product.name} (${product.price})`)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-body font-medium text-charcoal hover:text-gold transition-colors uppercase tracking-wider"
+              >
                 Comprar →
-              </button>
+              </a>
             )}
           </div>
         </div>
