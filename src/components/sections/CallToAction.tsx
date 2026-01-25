@@ -33,15 +33,23 @@ const CallToAction = () => {
             <Button
               size="lg"
               className="bg-charcoal hover:bg-earth text-cream px-12 py-6 text-base font-body tracking-wide transition-all duration-300 hover:shadow-hover"
+              asChild
             >
-              Comprar ahora
+              <a href="#coleccion">Ver colección</a>
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="border-earth-light/30 text-earth hover:bg-sand/50 px-12 py-6 text-base font-body tracking-wide transition-all duration-300"
+              asChild
             >
-              Contactar por WhatsApp
+              <a
+                href="https://wa.me/5492645666318?text=Hola!%20Me%20interesa%20conocer%20más%20sobre%20los%20accesorios%20de%20Aura"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Contactar por WhatsApp
+              </a>
             </Button>
           </div>
         </motion.div>
