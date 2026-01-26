@@ -64,15 +64,17 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-charcoal hover:bg-earth text-cream px-10 py-6 text-base font-body tracking-wide transition-all duration-300 hover:shadow-hover"
+              asChild
             >
-              Ver colección
+              <a href="#coleccion">Ver colección</a>
             </Button>
             <Button
               variant="outline"
               size="lg"
               className="border-earth-light/30 text-earth hover:bg-sand/50 px-10 py-6 text-base font-body tracking-wide transition-all duration-300"
+              asChild
             >
-              Conocer más
+              <a href="#nosotros">Conocer más</a>
             </Button>
           </motion.div>
         </motion.div>
