@@ -11,6 +11,11 @@ import tobilleraCaracolRojo from "@/assets/products/tobillera-caracol-rojo.webp"
 import tobilleraCaracolMadera from "@/assets/products/tobillera-caracol-madera.webp";
 import tobilleraCaracolBlanco from "@/assets/products/tobillera-caracol-blanco.webp";
 import tobilleraCaracolVerde from "@/assets/products/tobillera-caracol-verde.webp";
+import pulseraTurquesa from "@/assets/products/pulsera-turquesa.webp";
+import pulseraConcha from "@/assets/products/pulsera-concha.webp";
+import pulseraLlave from "@/assets/products/pulsera-llave.webp";
+import pulseraCobre from "@/assets/products/pulsera-cobre.webp";
+import tobilleraTurquesa from "@/assets/products/tobillera-turquesa.webp";
 
 interface Product {
   id: number;
@@ -25,6 +30,51 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
+    name: "Pulsera Turquesa",
+    description: "Hilo encerado negro con cuentas turquesa y madera",
+    price: "$1.800",
+    image: pulseraTurquesa,
+    available: true,
+    category: "pulsera",
+  },
+  {
+    id: 2,
+    name: "Pulsera Concha Marina",
+    description: "Hilo encerado con concha natural y cuentas blancas",
+    price: "$1.500",
+    image: pulseraConcha,
+    available: true,
+    category: "pulsera",
+  },
+  {
+    id: 3,
+    name: "Pulsera Llave",
+    description: "Hilo natural con dije de llave vintage",
+    price: "$1.800",
+    image: pulseraLlave,
+    available: true,
+    category: "pulsera",
+  },
+  {
+    id: 4,
+    name: "Pulsera Cobre Cristal",
+    description: "Hilo encerado cobre con cristales facetados",
+    price: "$2.000",
+    image: pulseraCobre,
+    available: true,
+    category: "pulsera",
+  },
+  {
+    id: 5,
+    name: "Tobillera Cauri Turquesa",
+    description: "Con concha cauri y cuentas turquesa",
+    price: "$2.000",
+    image: tobilleraTurquesa,
+    available: true,
+    category: "tobillera",
+  },
+  {
+    id: 6,
     name: "Pulsera Rose Gold",
     description: "Hilo negro con detalles en oro rosa",
     price: "$2.500",
@@ -33,7 +83,7 @@ const products: Product[] = [
     category: "pulsera",
   },
   {
-    id: 2,
+    id: 7,
     name: "Pulsera Cristal Azul",
     description: "Con cuentas de cristal azul intenso",
     price: "$2.500",
@@ -42,7 +92,7 @@ const products: Product[] = [
     category: "pulsera",
   },
   {
-    id: 3,
+    id: 8,
     name: "Tobillera Caracol Rojo",
     description: "Con caracol natural y cuentas rojas",
     price: "$2.000",
@@ -51,7 +101,7 @@ const products: Product[] = [
     category: "tobillera",
   },
   {
-    id: 4,
+    id: 9,
     name: "Tobillera Caracol Verde",
     description: "Con caracol y cuentas de madera verde",
     price: "$2.000",
@@ -60,7 +110,7 @@ const products: Product[] = [
     category: "tobillera",
   },
   {
-    id: 5,
+    id: 10,
     name: "Tobillera Mar",
     description: "Con caracol y cuentas de madera",
     price: "$1.800",
@@ -69,7 +119,7 @@ const products: Product[] = [
     category: "tobillera",
   },
   {
-    id: 6,
+    id: 11,
     name: "Pulsera Opalina",
     description: "Con piedras de opalina y detalles plateados",
     price: "$2.500",
@@ -78,7 +128,7 @@ const products: Product[] = [
     category: "pulsera",
   },
   {
-    id: 7,
+    id: 12,
     name: "Pulsera Coral",
     description: "Hilo natural con cuenta coral",
     price: "$2.500",
@@ -87,7 +137,7 @@ const products: Product[] = [
     category: "pulsera",
   },
   {
-    id: 8,
+    id: 13,
     name: "Pulsera Lila",
     description: "Con cristal lila y ojo turco",
     price: "$2.500",
