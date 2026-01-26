@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    /* Aura - Warm artisanal palette */
-    --background: 40 25% 97%;
+    /* Aura - Warm artisanal palette with soft green */
+    --background: 90 15% 96%;
     --foreground: 30 10% 15%;
 
     --card: 40 20% 95%;
