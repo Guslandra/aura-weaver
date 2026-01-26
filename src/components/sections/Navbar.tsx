@@ -54,8 +54,9 @@ const Navbar = () => {
             <Button
               size="sm"
               className="bg-charcoal hover:bg-earth text-cream font-body tracking-wide ml-4"
+              asChild
             >
-              Comprar
+              <a href="#coleccion">Comprar</a>
             </Button>
           </div>
 
@@ -108,8 +109,11 @@ const Navbar = () => {
                   size="lg"
                   className="w-full bg-charcoal hover:bg-earth text-cream font-body tracking-wide"
                   onClick={() => setIsMobileMenuOpen(false)}
+                  asChild
                 >
-                  Comprar ahora
+                  <a href="#coleccion">
+                    Comprar ahora
+                  </a>
                 </Button>
               </motion.div>
             </div>
