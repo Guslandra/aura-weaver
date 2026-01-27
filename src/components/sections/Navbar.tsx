@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logoAura from "@/assets/logo-aura.png";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,8 +37,8 @@ const Navbar = () => {
       >
         <div className="container px-6 flex items-center justify-between">
           {/* Logo */}
-          <a href="#" className="font-display text-3xl text-charcoal">
-            Aura
+          <a href="#" className="flex items-center">
+            <img src={logoAura} alt="Aura" className="h-12 w-auto" />
           </a>
 
           {/* Desktop Nav */}
