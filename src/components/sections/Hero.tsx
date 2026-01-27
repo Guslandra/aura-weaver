@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import logoAura from "@/assets/logo-aura.png";
 
 const Hero = () => {
   return (
@@ -28,14 +29,18 @@ const Hero = () => {
             Accesorios artesanales
           </motion.p>
 
-          <motion.h1
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <motion.div
+            initial={{ opacity: 0, y: 20, scale: 0.9 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="font-display text-7xl md:text-8xl lg:text-9xl font-medium text-charcoal mb-6 tracking-wide"
+            className="mb-6"
           >
-            Aura
-          </motion.h1>
+            <img 
+              src={logoAura} 
+              alt="Aura" 
+              className="w-48 md:w-64 lg:w-80 h-auto mx-auto"
+            />
+          </motion.div>
 
           <motion.div
             initial={{ scaleX: 0 }}
