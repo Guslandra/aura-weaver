@@ -32,21 +32,25 @@ const Footer = () => {
             className="flex justify-center gap-6 mb-10"
           >
             <a
-              href="#"
+              href="https://instagram.com/ence.rado"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold/20 transition-colors duration-300 group"
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5 text-cream/70 group-hover:text-gold transition-colors" />
             </a>
             <a
-              href="#"
+              href="https://wa.me/5492645666318"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold/20 transition-colors duration-300 group"
               aria-label="WhatsApp"
             >
               <MessageCircle className="w-5 h-5 text-cream/70 group-hover:text-gold transition-colors" />
             </a>
             <a
-              href="#"
+              href="mailto:sofiiandrada68@gmail.com"
               className="w-12 h-12 rounded-full bg-cream/10 flex items-center justify-center hover:bg-gold/20 transition-colors duration-300 group"
               aria-label="Email"
             >
