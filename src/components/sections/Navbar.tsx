@@ -38,7 +38,7 @@ const Navbar = () => {
         <div className="container px-6 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <img src={logoAura} alt="Aura" className="h-12 w-auto" />
+            <img src={logoAura} alt="Aura" width={48} height={48} className="h-12 w-auto" />
           </a>
 
           {/* Desktop Nav */}
