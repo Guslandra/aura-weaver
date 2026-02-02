@@ -38,6 +38,9 @@ const Hero = () => {
             <img 
               src={logoAura} 
               alt="Aura" 
+              width={320}
+              height={320}
+              fetchPriority="high"
               className="w-48 md:w-64 lg:w-80 h-auto mx-auto"
             />
           </motion.div>
