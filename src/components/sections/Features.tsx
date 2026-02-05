@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles, Droplets, Heart, Palette, Fingerprint } from "lucide-react";
+import { Sparkles, Droplets, Palette, Fingerprint } from "lucide-react";
 
 const features = [
   {
@@ -22,13 +22,7 @@ const features = [
     title: "Diseños únicos",
     description: "Combinaciones exclusivas que no vas a encontrar en otro lado",
   },
-  {
-    icon: Heart,
-    title: "Personalizables",
-    description: "Creamos piezas especiales según tus gustos y preferencias",
-  },
 ];
-
 const Features = () => {
   return (
     <section className="py-24 md:py-32 bg-background">
@@ -48,7 +42,7 @@ const Features = () => {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
