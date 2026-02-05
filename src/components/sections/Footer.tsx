@@ -66,17 +66,14 @@ const Footer = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="flex flex-wrap justify-center gap-8 mb-10 text-sm font-body"
           >
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="#coleccion" className="hover:text-gold transition-colors">
               Colección
             </a>
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="#nosotros" className="hover:text-gold transition-colors">
               Sobre nosotros
             </a>
-            <a href="#" className="hover:text-gold transition-colors">
+            <a href="#contacto" className="hover:text-gold transition-colors">
               Contacto
-            </a>
-            <a href="#" className="hover:text-gold transition-colors">
-              Personalizados
             </a>
           </motion.div>
 
