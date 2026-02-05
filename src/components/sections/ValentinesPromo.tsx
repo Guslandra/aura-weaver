@@ -98,9 +98,6 @@ const ValentinesPromo = () => {
             <span className="bg-charcoal/10 px-4 py-2 rounded-full text-sm font-body">
               <span className="font-medium">Colores:</span> Negro, Rojo, Blanco
             </span>
-            <span className="bg-charcoal/10 px-4 py-2 rounded-full text-sm font-body">
-              <span className="font-medium">Envío:</span> A todo el país
-            </span>
           </div>
 
           {/* Color options */}
